@@ -1,8 +1,14 @@
+import { useContext } from "react";
 import { GiClothes } from "react-icons/gi";
 import { Link, NavLink } from "react-router-dom";
+import { AuthContext } from "../context/authContext";
 
 
 const Navbar = () => {
+
+ const {user} = useContext(AuthContext);
+ console.log(user)
+
 
  const links = <>
   <li className="font-semibold text-gray-600"><NavLink to='/'>Home</NavLink></li>
@@ -12,8 +18,8 @@ const Navbar = () => {
  </>
 
  return (
-  <div className="">
-   <div className="navbar bg-[#fbdd02] shadow-sm h-[95px] sticky top-0 z-50">
+  <div className="sticky top-0 z-50">
+   <div className="navbar bg-[#fbdd02] shadow-sm h-[95px] ">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
