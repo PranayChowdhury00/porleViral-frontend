@@ -13,43 +13,43 @@ import { AuthContext } from "./authContext";
 
 const AuthProvider = ({ children }) => {
     const [user, setUser] = useState(null);
-    const [loader, setLoader] = useState(true);
+    const [loading, setLoading] = useState(true);
     
     const GoogleProvider = new GoogleAuthProvider();
 
     const createNewUser = (email, password) => {
-        setLoader(true);
+        setLoading(true);
         return createUserWithEmailAndPassword(auth, email, password);
     }
 
     const signInUser = (email, password) => {
-        setLoader(true);
+        setLoading(true);
         return signInWithEmailAndPassword(auth, email, password);
     }
 
     const googleSignIn = () => {
-        setLoader(true);
+        setLoading(true);
         return signInWithPopup(auth, GoogleProvider);
     }
 
     const signOutUser = () => {
-        setLoader(true);
+        setLoading(true);
         return signOut(auth);
     }
 
     // Add this new function for password reset
     const resetPassword = (email) => {
-        setLoader(true);
+        setLoading(true);
         return sendPasswordResetEmail(auth, email);
     }
 
     useEffect(() => {
         const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
             setUser(currentUser);
-            setLoader(false);
+            setLoading(false);
         }, (error) => {
             console.error("Auth state error:", error);
-            setLoader(false);
+            setLoading(false);
         });
         
         return () => unsubscribe();
@@ -57,13 +57,13 @@ const AuthProvider = ({ children }) => {
 
     const authInfo = {
         user,
-        loader,
+        loading,
         createNewUser,
         signInUser,
         googleSignIn,
         signOutUser,
         resetPassword,  // Add this to the context
-        setLoader
+        setLoading
     };
 
     return (
