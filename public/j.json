@@ -1,0 +1,245 @@
+[
+  {
+    "name": "Classic White Shirt",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThbCow55pOWQQgDDjjdK-1dHmree9otMelyg&s",
+    "price": 32,
+    "currency": "USD",
+    "category": "shirt",
+    "size": ["M", "L", "XL"],
+    "description": "Timeless white shirt made of pure cotton. Great for both formal and casual."
+  },
+  {
+    "name": "Denim Blue Shirt",
+    "image": "https://masculine.com.bd/cdn/shop/collections/Denim_Shirt-2.jpg?v=1666969788",
+    "price": 38,
+    "currency": "USD",
+    "category": "shirt",
+    "size": ["M", "L"],
+    "description": "Stylish denim shirt for a rugged and bold look."
+  },
+  {
+    "name": "Slim Fit Black Shirt",
+    "image": "https://content.moss.co.uk/images/extraextralarge/965994515_01.jpg",
+    "price": 35,
+    "currency": "USD",
+    "category": "shirt",
+    "size": ["L", "XL"],
+    "description": "Slim fit black shirt, perfect for party and formal events."
+  },
+  {
+    "name": "Checked Casual Shirt",
+    "image": "https://static.cilory.com/681503-thickbox_default/nologo-white-navy-checked-casual-shirt.jpg.webp",
+    "price": 30,
+    "currency": "USD",
+    "category": "shirt",
+    "size": ["M", "L", "XL"],
+    "description": "Comfortable checked shirt for daily wear."
+  },
+  {
+    "name": "Navy Blue Cotton Shirt",
+    "image": "https://5.imimg.com/data5/YF/QO/NH/SELLER-10042265/men-navy-blue-solid-cotton-casual-shirt.jpg",
+    "price": 34,
+    "currency": "USD",
+    "category": "shirt",
+    "size": ["M", "L"],
+    "description": "Smart and simple cotton shirt for formal events."
+  },
+  {
+    "name": "Formal Grey Shirt",
+    "image": "https://www.beyours.in/cdn/shop/products/german-grey-classic-shirt-5.jpg?v=1748188169",
+    "price": 33,
+    "currency": "USD",
+    "category": "shirt",
+    "size": ["M", "L", "XL"],
+    "description": "Simple formal grey shirt for office wear."
+  },
+  {
+    "name": "Olive Green Shirt",
+    "image": "https://i.ibb.co/W3C2rPR/olive-shirt.jpg",
+    "price": 36,
+    "currency": "USD",
+    "category": "shirt",
+    "size": ["L", "XL"],
+    "description": "https://kollarzandkreazez.com/cdn/shop/files/SW009213.webp?v=1742231697"
+  },
+  {
+    "name": "Light Blue Cotton Shirt",
+    "image": "https://i.ibb.co/yNn95t0/light-blue-shirt.jpg",
+    "price": 29,
+    "currency": "USD",
+    "category": "shirt",
+    "size": ["M", "L"],
+    "description": "https://static-01.daraz.com.bd/p/8905d547aaaf74cf96f09c4faae97dc7.jpg"
+  },
+  {
+    "name": "Sky Checked Shirt",
+    "image": "https://stingshop.com/cdn/shop/products/SG0019C250FZ.jpg?v=1664973930",
+    "price": 31,
+    "currency": "USD",
+    "category": "shirt",
+    "size": ["L", "XL"],
+    "description": "Stylish sky-blue checkered shirt."
+  },
+  {
+    "name": "Black Graphic T-Shirt",
+    "image": "https://images.contentstack.io/v3/assets/blt58e3dfc8365d0ef2/blt7e8614c226060aec/67469f8e84eb467025771c7e/RELEASE_240910_GraphicTees_C1_5925.jpg",
+    "price": 18,
+    "currency": "USD",
+    "category": "tshirt",
+    "size": ["M", "L", "XL"],
+    "description": "Trendy black t-shirt with bold graphic print."
+  },
+  {
+    "name": "Plain White T-Shirt",
+    "image": "https://www.aazbd.com/wp-content/uploads/2023/01/Low.png",
+    "price": 15,
+    "currency": "USD",
+    "category": "tshirt",
+    "size": ["M", "L", "XL"],
+    "description": "Everyday basic white t-shirt made with soft cotton."
+  },
+  {
+    "name": "Red Round Neck T-Shirt",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBO0fGRodn85STmyVggNEsrW61o31ql87YcA&s",
+    "price": 17,
+    "currency": "USD",
+    "category": "tshirt",
+    "size": ["L", "XL"],
+    "description": "Comfortable red tee with round neckline."
+  },
+  {
+    "name": "Blue Printed T-Shirt",
+    "image": "https://veirdo.in/cdn/shop/files/04_90d2ff0c-d910-43dd-abc7-fe28af986280.jpg?v=1724158489",
+    "price": 19,
+    "currency": "USD",
+    "category": "tshirt",
+    "size": ["M", "L"],
+    "description": "Modern printed t-shirt with short sleeves."
+  },
+  {
+    "name": "Yellow Crew Neck T-Shirt",
+    "image": "https://www.yellowclothing.net/cdn/shop/files/DSC9851_1200x.jpg?v=1741764764",
+    "price": 20,
+    "currency": "USD",
+    "category": "tshirt",
+    "size": ["M", "L", "XL"],
+    "description": "Soft yellow crew-neck for a casual vibe."
+  },
+  {
+    "name": "Green Sporty T-Shirt",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC9wIaM_sW3tQ4I00yuTpznA78VENiAyps5w&s",
+    "price": 21,
+    "currency": "USD",
+    "category": "tshirt",
+    "size": ["L", "XL"],
+    "description": "Sporty tee with breathable fabric."
+  },
+  {
+    "name": "Striped T-Shirt",
+    "image": "https://static-01.daraz.com.bd/p/68570481290bb94ea93f2d9102644748.jpg",
+    "price": 22,
+    "currency": "USD",
+    "category": "tshirt",
+    "size": ["M", "L"],
+    "description": "Trendy striped t-shirt for street style."
+  },
+  {
+    "name": "Navy Blue V-Neck T-Shirt",
+    "image": "https://static.cilory.com/739130-thickbox_default/navy-blue-v-neck-pure-cotton-t-shirt-by-nologo.jpg.webp",
+    "price": 19,
+    "currency": "USD",
+    "category": "tshirt",
+    "size": ["M", "L", "XL"],
+    "description": "Stylish navy v-neck tee for smart casuals."
+  },
+  {
+    "name": "Charcoal Grey T-Shirt",
+    "image": "https://markmorphy.com/cdn/shop/files/male-charcoal-oversized-extended-neck-heavy-t-shirt-_2.webp?v=1707535001",
+    "price": 18,
+    "currency": "USD",
+    "category": "tshirt",
+    "size": ["M", "XL"],
+    "description": "Classic charcoal t-shirt with soft material."
+  },
+  {
+    "name": "Slim Fit Jeans",
+    "image": "https://www.yellowclothing.net/cdn/shop/files/DSC03832_1.jpg?v=1723352087",
+    "price": 42,
+    "currency": "USD",
+    "category": "pant",
+    "size": ["30", "32", "34"],
+    "description": "Stretchable slim-fit blue jeans."
+  },
+  {
+    "name": "Black Chinos",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgL6CADoB03DbJCguOL_TLvqpGwUgFGos6Zg&s",
+    "price": 39,
+    "currency": "USD",
+    "category": "pant",
+    "size": ["32", "34", "36"],
+    "description": "Smart black chinos for work or outings."
+  },
+  {
+    "name": "Grey Joggers",
+    "image": "https://static.thcdn.com/images/large/original//productimg/1600/1600/14814214-2615117868015129.jpg",
+    "price": 28,
+    "currency": "USD",
+    "category": "pant",
+    "size": ["M", "L", "XL"],
+    "description": "Soft joggers ideal for gym or casual wear."
+  },
+  {
+    "name": "Cargo Pants",
+    "image": "https://media.wired.com/photos/611c5312798f0e2c853b702f/1:1/w_993,h_993,c_limit/Gear-Cargo-Pants-are-Back-1302952122.jpg",
+    "price": 44,
+    "currency": "USD",
+    "category": "pant",
+    "size": ["30", "32", "34"],
+    "description": "Multi-pocket cargo pants with durable fabric."
+  },
+  {
+    "name": "Navy Formal Trousers",
+    "image": "https://cdn.suitdirect.co.uk/upload/siteimages/medium/ar24150tt_034_a.jpg",
+    "price": 40,
+    "currency": "USD",
+    "category": "pant",
+    "size": ["32", "34", "36"],
+    "description": "Office-perfect navy trousers."
+  },
+  {
+    "name": "Khaki Casual Pants",
+    "image": "https://img.drz.lazcdn.com/static/bd/p/7a0179498fca1dd12acd6cedbff36ec2.jpg_720x720q80.jpg",
+    "price": 37,
+    "currency": "USD",
+    "category": "pant",
+    "size": ["32", "34"],
+    "description": "Comfortable khakis for everyday use."
+  },
+  {
+    "name": "Track Pants",
+    "image": "https://m.media-amazon.com/images/I/71ZaAUH98IL._AC_SL1500_.jpg",
+    "price": 29,
+    "currency": "USD",
+    "category": "pant",
+    "size": ["M", "L", "XL"],
+    "description": "Sportswear track pants with zip pockets."
+  },
+  {
+    "name": "Beige Cotton Pants",
+    "image": "https://johnwatson.in/cdn/shop/products/Pro-CaptureOne9589.jpg?v=1697026315",
+    "price": 34,
+    "currency": "USD",
+    "category": "pant",
+    "size": ["30", "32", "34"],
+    "description": "Breathable cotton pants for summer."
+  },
+  {
+    "name": "Straight Fit Jeans",
+    "image": "https://offduty.in/cdn/shop/files/IMG_4573_2_1080x.jpg?v=1744979438",
+    "price": 41,
+    "currency": "USD",
+    "category": "pant",
+    "size": ["30", "32", "34"],
+    "description": "Classic straight jeans for all occasions."
+  }
+]
