@@ -17,9 +17,14 @@ import Shirts from "../pages/Shirts/Shirts";
 import ProductDetails2 from "../pages/Shirts/ProductDetails2";
 import TShirts from "../pages/TShirts/TShirts";
 import Pants from "../pages/Pants/Pants";
+import Page404 from "../pages/Page404/Page404";
 
 const router = createBrowserRouter([
-  {
+ {
+  path:'*',
+  element:<Page404></Page404>
+ } ,
+ {
     path: "/",
     element: <MainLayout></MainLayout>,
     children: [

@@ -16,24 +16,60 @@ const Navbar = () => {
   },[user?.email])
 
   const links = (
-    <>
-      <li className="font-semibold text-gray-600 text-[16px]">
-        <NavLink to="/">Home</NavLink>
-      </li>
-      <li className="font-semibold text-gray-600 text-[16px]">
-        <NavLink to="/shirt">Shirts</NavLink>
-      </li>
-      <li className="font-semibold text-gray-600 text-[16px]">
-        <NavLink to="/t-shirt">T-Shirts</NavLink>
-      </li>
-      <li className="font-semibold text-gray-600 text-[16px]">
-        <NavLink to="/pants">Pants</NavLink>
-      </li>
-      <li className="font-semibold text-gray-600 text-[16px]">
-        <NavLink to="/contact">ContactUs</NavLink>
-      </li>
-    </>
-  );
+  <>
+    <li>
+      <NavLink
+        to="/"
+        className={({ isActive }) =>
+          isActive ? "text-yellow-800 font-bold underline" : "text-gray-600 font-semibold text-[16px]"
+        }
+      >
+        Home
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        to="/shirt"
+        className={({ isActive }) =>
+          isActive ? "text-yellow-800 font-bold underline" : "text-gray-600 font-semibold text-[16px]"
+        }
+      >
+        Shirts
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        to="/t-shirt"
+        className={({ isActive }) =>
+          isActive ? "text-yellow-800 font-bold underline" : "text-gray-600 font-semibold text-[16px]"
+        }
+      >
+        T-Shirts
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        to="/pants"
+        className={({ isActive }) =>
+          isActive ? "text-yellow-800 font-bold underline" : "text-gray-600 font-semibold text-[16px]"
+        }
+      >
+        Pants
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        to="/contact"
+        className={({ isActive }) =>
+          isActive ? "text-yellow-800 font-bold underline" : "text-gray-600 font-semibold text-[16px]"
+        }
+      >
+        ContactUs
+      </NavLink>
+    </li>
+  </>
+);
+
 
   return (
     <div className="sticky top-0 z-50 bg-[#fbdd02] shadow-sm">
